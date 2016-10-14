@@ -1,6 +1,6 @@
 {
   "name": "meteor-webpack-client",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Use Meteor's native client packages in a non Meteor project",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
