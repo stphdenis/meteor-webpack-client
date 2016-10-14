@@ -1,4 +1,4 @@
-"# meteor-webpack-client"
+# meteor-webpack-client
 Use Meteor's native client packages in a non Meteor project.
 
 The packages are from a local meteor install of any version whith their css files.
@@ -28,7 +28,7 @@ export const __meteor_runtime_config__ = {
 };
 ```
 * Set DDP connection url with `DDP_DEFAULT_CONNECTION_URL` if using DDP
-* Make Meteor objects global with `__global_scope__: true`.
+* Make Meteor objects global with `__global_scope__: true`; you still have to import your package in your main. Ex: `import 'meteor/accounts-base'` to have `Accounts`.
 
 #### 3. easy-webpack configuration :
 
